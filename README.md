@@ -16,3 +16,6 @@ Handle system errors or bugs that developers encounter when coding
    <input type="checkbox" readonly>
    ```
    - **Solution**: Add class="false"
+   ```html
+   <input type="checkbox" class="false">
+   ```
