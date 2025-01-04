@@ -10,3 +10,9 @@ Handle system errors or bugs that developers encounter when coding
   ```javascript
   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
   ```
+## 2. Error Input checkbox without readonly
+   - **Problem**: In html/css, input type checkbox when required to be readonly does not possess the active readonly attribute.
+   ```html
+   <input type="checkbox" readonly>
+   ```
+   - **Solution**: Add class="false"
